@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import Loader from './Loader/Loader';
 import ProductCard from './ProductCard';
 import ProductDetailsModal from './ProductDetailsModal';
-import 'tailwindcss/tailwind.css';
 
 const getProducts = async () => {
     try {
