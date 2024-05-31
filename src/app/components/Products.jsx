@@ -37,7 +37,7 @@ const getProducts = async () => {
         }, []);
       
         return (
-          <section className="service-section bg-cover bg-center">
+          <section className="service-section bg-cover bg-center ">
             <div className="container mx-auto px-4 py-20 md:py-40 relative z-10">
               <div className="flex flex-col my-[20%] items-start justify-start gap-4 text-start
                bg-black bg-opacity-50 p-4 rounded-lg">
@@ -62,7 +62,7 @@ const getProducts = async () => {
                 {productImages.map((image, index) => (
                   <div key={index} className="h-full">
                     <img src={image} alt={`Product ${index + 1}`} className="w-full h-[100vh]
-                     border-2 border-white object-contain" style={{border: "2pt solid white"}}/>
+                     border-2 border-white object-contain" />
                   </div>
                 ))}
               </Carousel>
@@ -118,7 +118,7 @@ const Products = () => {
         <>
         <HeroSection />
       
-            <div className="container  p-4 -my-[20%]">
+            <div className="  p-28 -my-[20%]">
                 
                 <h1 className='text-white text-4xl my-[12%] text-left'> Search your desired products here</h1>
                 <input
