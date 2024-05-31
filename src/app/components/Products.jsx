@@ -118,7 +118,7 @@ const Products = () => {
         <>
         <HeroSection />
       
-            <div className="  p-28 -my-[20%]">
+            <div className=" p-4 md:p-28 -my-[20%]">
                 
                 <h1 className='text-white text-4xl my-[12%] text-left'> Search your desired products here</h1>
                 <input
